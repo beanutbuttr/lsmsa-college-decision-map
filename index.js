@@ -241,6 +241,24 @@ var map;
 					url:'pictures/allisonAllsop.png',
 					scaledSize: new google.maps.Size(50,50)
 				}
+			},
+			pashaFarley: {
+				icon: {
+					url:'pictures/pashaFarley.png',
+					scaledSize: new google.maps.Size(50,50)
+				}
+			},
+			dylanWhite: {
+				icon: {
+					url:'pictures/dylanWhite.png',
+					scaledSize: new google.maps.Size(50,50)
+				}
+			},
+			chirstanBates: {
+				icon: {
+					url:'pictures/chirstanBates.png',
+					scaledSize: new google.maps.Size(50,50)
+				}
 			}
 		};
 
@@ -362,6 +380,15 @@ var map;
 		}, { //allisonAllsop
 			position: new google.maps.LatLng(32.483983, -93.732789),
 			type: 'allisonAllsop'
+		}, { //pashaFarley
+			position: new google.maps.LatLng(32.528120, -92.648750),
+			type: 'pashaFarley'
+		}, { //dylanWhite
+			position: new google.maps.LatLng(30.412212, -91.178618),
+			type: 'dylanWhite'
+		}, { //chirstanBates
+			position: new google.maps.LatLng(31.750206, -93.098652),
+			type: 'chirstanBates'
 		}
 		];
 
