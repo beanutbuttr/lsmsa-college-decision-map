@@ -1,0 +1,23 @@
+#map {
+    height: 100%;
+    z-index: 5;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #AADAFF;
+}
+
+h1 {
+    font-family: helvetica;
+    margin-top: 0;
+    width: 100%;
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: center;
+    position: absolute;
+    z-index: 10;
+    /*background-color: rgba(270,270,270,.7)*/
+}
