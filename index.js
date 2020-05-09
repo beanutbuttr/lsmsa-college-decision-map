@@ -259,6 +259,30 @@ var map;
 					url:'pictures/chirstanBates.png',
 					scaledSize: new google.maps.Size(50,50)
 				}
+			},
+			funkeAdeleye: {
+				icon: {
+					url:'pictures/funkeAdeleye.png',
+					scaledSize: new google.maps.Size(50,50)
+				}
+			},
+			nickAdams: {
+				icon: {
+					url:'pictures/nickAdams.png',
+					scaledSize: new google.maps.Size(50,50)
+				}
+			},
+			saraMixon: {
+				icon: {
+					url:'pictures/saraMixon.png',
+					scaledSize: new google.maps.Size(50,50)
+				}
+			},
+			makaylaLuzier: {
+				icon: {
+					url:'pictures/makaylaLuzier.png',
+					scaledSize: new google.maps.Size(50,50)
+				}
 			}
 		};
 
@@ -389,6 +413,18 @@ var map;
 		}, { //chirstanBates
 			position: new google.maps.LatLng(31.750206, -93.098652),
 			type: 'chirstanBates'
+		}, { //funkeAdeleye
+			position: new google.maps.LatLng(29.940561, -90.121711),
+			type: 'funkeAdeleye'
+		}, { //nickAdams
+			position: new google.maps.LatLng(29.939557, -90.120220),
+			type: 'nickAdams'
+		}, { //saraMixon
+			position: new google.maps.LatLng(37.427612, -122.171776),
+			type: 'saraMixon'
+		}, { //makaylaLuzier
+			position: new google.maps.LatLng(32.351636, -80.689531),
+			type: 'makaylaLuzier'
 		}
 		];
 
