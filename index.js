@@ -283,6 +283,18 @@ var map;
 					url:'pictures/makaylaLuzier.png',
 					scaledSize: new google.maps.Size(50,50)
 				}
+			},
+			malloryCredeur: {
+				icon: {
+					url:'pictures/malloryCredeur.png',
+					scaledSize: new google.maps.Size(50,50)
+				}
+			},
+			ceceWarren: {
+				icon: {
+					url:'pictures/ceceWarren.png',
+					scaledSize: new google.maps.Size(50,50)
+				}
 			}
 		};
 
@@ -425,6 +437,12 @@ var map;
 		}, { //makaylaLuzier
 			position: new google.maps.LatLng(32.351636, -80.689531),
 			type: 'makaylaLuzier'
+		}, { //malloryCredeur
+			position: new google.maps.LatLng(32.483512, -93.733057),
+			type: 'malloryCredeur'
+		}, { //ceceWarren
+			position: new google.maps.LatLng(44.564140, -123.279530),
+			type: 'ceceWarren'
 		}
 		];
 
