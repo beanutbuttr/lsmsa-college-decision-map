@@ -295,6 +295,12 @@ var map;
 					url:'pictures/ceceWarren.png',
 					scaledSize: new google.maps.Size(50,50)
 				}
+			},
+			jeremyBrown: {
+				icon: {
+					url:'pictures/jeremyBrown.png',
+					scaledSize: new google.maps.Size(50,50)
+				}
 			}
 		};
 
@@ -443,6 +449,9 @@ var map;
 		}, { //ceceWarren
 			position: new google.maps.LatLng(44.564140, -123.279530),
 			type: 'ceceWarren'
+		}, { //jeremyBrown
+			position: new google.maps.LatLng(43.053206, -75.405993),
+			type: 'jeremyBrown'
 		}
 		];
 
