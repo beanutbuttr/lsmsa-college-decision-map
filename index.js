@@ -301,6 +301,18 @@ var map;
 					url:'pictures/jeremyBrown.png',
 					scaledSize: new google.maps.Size(50,50)
 				}
+			},
+			marinnaCurtis: {
+				icon: {
+					url:'pictures/marinnaCurtis.png',
+					scaledSize: new google.maps.Size(50,50)
+				}
+			},
+			leilaEscoto: {
+				icon: {
+					url:'pictures/leilaEscoto.png',
+					scaledSize: new google.maps.Size(50,50)
+				}
 			}
 		};
 
@@ -452,6 +464,12 @@ var map;
 		}, { //jeremyBrown
 			position: new google.maps.LatLng(43.053206, -75.405993),
 			type: 'jeremyBrown'
+		}, { //marinnaCurtis
+			position: new google.maps.LatLng(32.528240, -92.651111),
+			type: 'marinnaCurtis'
+		}, { //leilaEscoto
+			position: new google.maps.LatLng(29.939789, -90.121261),
+			type: 'leilaEscoto'
 		}
 		];
 
