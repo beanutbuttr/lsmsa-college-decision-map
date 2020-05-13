@@ -313,6 +313,18 @@ var map;
 					url:'pictures/leilaEscoto.png',
 					scaledSize: new google.maps.Size(50,50)
 				}
+			},
+			addisonDeblieux: {
+				icon: {
+					url:'pictures/addisonDeblieux.png',
+					scaledSize: new google.maps.Size(50,50)
+				}
+			},
+			izzyNguyen: {
+				icon: {
+					url:'pictures/izzyNguyen.png',
+					scaledSize: new google.maps.Size(50,50)
+				}
 			}
 		};
 
@@ -470,6 +482,12 @@ var map;
 		}, { //leilaEscoto
 			position: new google.maps.LatLng(29.939789, -90.121261),
 			type: 'leilaEscoto'
+		}, { //addisonDeblieux
+			position: new google.maps.LatLng(30.411343, -91.179938),
+			type: 'addisonDeblieux'
+		}, { //izzyNguyen
+			position: new google.maps.LatLng(40.862903, -74.197674),
+			type: 'izzyNguyen'
 		}
 		];
 
