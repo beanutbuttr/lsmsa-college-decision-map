@@ -325,6 +325,18 @@ var map;
 					url:'pictures/izzyNguyen.png',
 					scaledSize: new google.maps.Size(50,50)
 				}
+			},
+			amayaRobinson: {
+				icon: {
+					url:'pictures/amayaRobinson.png',
+					scaledSize: new google.maps.Size(50,50)
+				}
+			},
+			kaitlynThompson: {
+				icon: {
+					url:'pictures/kaitlynThompson.png',
+					scaledSize: new google.maps.Size(50,50)
+				}
 			}
 		};
 
@@ -488,6 +500,12 @@ var map;
 		}, { //izzyNguyen
 			position: new google.maps.LatLng(40.862903, -74.197674),
 			type: 'izzyNguyen'
+		}, { //amayaRobinson
+			position: new google.maps.LatLng(32.527034, -92.650101),
+			type: 'amayaRobinson'
+		}, { //kaitlynThompson
+			position: new google.maps.LatLng(29.939588, -90.118862),
+			type: 'kaitlynThompson'
 		}
 		];
 
