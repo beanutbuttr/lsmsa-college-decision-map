@@ -337,6 +337,18 @@ var map;
 					url:'pictures/kaitlynThompson.png',
 					scaledSize: new google.maps.Size(50,50)
 				}
+			},
+			andyRichard: {
+				icon: {
+					url:'pictures/andyRichard.png',
+					scaledSize: new google.maps.Size(50,50)
+				}
+			},
+			jackGranger: {
+				icon: {
+					url:'pictures/jackGranger.png',
+					scaledSize: new google.maps.Size(50,50)
+				}
 			}
 		};
 
@@ -506,6 +518,12 @@ var map;
 		}, { //kaitlynThompson
 			position: new google.maps.LatLng(29.939588, -90.118862),
 			type: 'kaitlynThompson'
+		}, { //andyRichard
+			position: new google.maps.LatLng(30.517852, -90.468997),
+			type: 'andyRichard'
+		}, { //jackGranger
+			position: new google.maps.LatLng(29.938785, -90.121132),
+			type: 'jackGranger'
 		}
 		];
 
