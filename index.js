@@ -349,6 +349,36 @@ var map;
 					url:'pictures/jackGranger.png',
 					scaledSize: new google.maps.Size(50,50)
 				}
+			},
+			annaSloan: {
+				icon: {
+					url:'pictures/annaSloan.png',
+					scaledSize: new google.maps.Size(50,50)
+				}
+			},
+			ritaLin: {
+				icon: {
+					url:'pictures/ritaLin.png',
+					scaledSize: new google.maps.Size(50,50)
+				}
+			},
+			hannahShimer: {
+				icon: {
+					url:'pictures/hannahShimer.png',
+					scaledSize: new google.maps.Size(50,50)
+				}
+			},
+			kathrynLee: {
+				icon: {
+					url:'pictures/kathrynLee.png',
+					scaledSize: new google.maps.Size(50,50)
+				}
+			},
+			lucasSanchez: {
+				icon: {
+					url:'pictures/lucasSanchez.png',
+					scaledSize: new google.maps.Size(50,50)
+				}
 			}
 		};
 
@@ -524,6 +554,21 @@ var map;
 		}, { //jackGranger
 			position: new google.maps.LatLng(29.938785, -90.121132),
 			type: 'jackGranger'
+		}, { //annaSloan
+			position: new google.maps.LatLng(29.938701, -90.119297),
+			type: 'annaSloan'
+		}, { //ritaLin
+			position: new google.maps.LatLng(40.798701, -77.860005),
+			type: 'ritaLin'
+		}, { //hannahShimer
+			position: new google.maps.LatLng(31.547498, -97.121132),
+			type: 'hannahShimer'
+		}, { //kathrynLee
+			position: new google.maps.LatLng(41.825597, -71.402645),
+			type: 'kathrynLee'
+		}, { //lucasSanchez
+			position: new google.maps.LatLng(30.411287, -91.178554),
+			type: 'lucasSanchez'
 		}
 		];
 
