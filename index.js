@@ -379,6 +379,18 @@ var map;
 					url:'pictures/lucasSanchez.png',
 					scaledSize: new google.maps.Size(50,50)
 				}
+			},
+			madelineOconnor: {
+				icon: {
+					url:'pictures/madelineOconnor.png',
+					scaledSize: new google.maps.Size(50,50)
+				}
+			},
+			drakePelletier: {
+				icon: {
+					url:'pictures/drakePelletier.png',
+					scaledSize: new google.maps.Size(50,50)
+				}
 			}
 		};
 
@@ -569,6 +581,12 @@ var map;
 		}, { //lucasSanchez
 			position: new google.maps.LatLng(30.411287, -91.178554),
 			type: 'lucasSanchez'
+		}, { //madelineOconnor
+			position: new google.maps.LatLng(45.449592, -122.670484),
+			type: 'madelineOconnor'
+		}, { //drakePelletier
+			position: new google.maps.LatLng(29.188826, -81.049498),
+			type: 'drakePelletier'
 		}
 		];
 
