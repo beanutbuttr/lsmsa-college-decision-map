@@ -391,6 +391,12 @@ var map;
 					url:'pictures/drakePelletier.png',
 					scaledSize: new google.maps.Size(50,50)
 				}
+			},
+			taylorRutherford: {
+				icon: {
+					url:'pictures/taylorRutherford.png',
+					scaledSize: new google.maps.Size(50,50)
+				}
 			}
 		};
 
@@ -587,6 +593,9 @@ var map;
 		}, { //drakePelletier
 			position: new google.maps.LatLng(29.188826, -81.049498),
 			type: 'drakePelletier'
+		}, { //taylorRutherford
+			position: new google.maps.LatLng(47.609452, -122.317825),
+			type: 'taylorRutherford'
 		}
 		];
 
