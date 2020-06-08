@@ -397,6 +397,24 @@ var map;
 					url:'pictures/taylorRutherford.png',
 					scaledSize: new google.maps.Size(50,50)
 				}
+			},
+			briannaDay: {
+				icon: {
+					url:'pictures/briannaDay.png',
+					scaledSize: new google.maps.Size(50,50)
+				}
+			},
+			joshuaBass: {
+				icon: {
+					url:'pictures/joshuaBass.png',
+					scaledSize: new google.maps.Size(50,50)
+				}
+			},
+			chadCook: {
+				icon: {
+					url:'pictures/chadCook.png',
+					scaledSize: new google.maps.Size(50,50)
+				}
 			}
 		};
 
@@ -596,6 +614,15 @@ var map;
 		}, { //taylorRutherford
 			position: new google.maps.LatLng(47.609452, -122.317825),
 			type: 'taylorRutherford'
+		}, { //briannaDay
+			position: new google.maps.LatLng(33.211654, -87.516139),
+			type: 'briannaDay'
+		}, { //joshuaBass
+			position: new google.maps.LatLng(28.031843, -81.945072),
+			type: 'joshuaBass'
+		}, { //chadCook
+			position: new google.maps.LatLng(32.527296, -92.650219),
+			type: 'chadCook'
 		}
 		];
 
